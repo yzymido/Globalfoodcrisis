@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Food Crisis</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7); 
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100; 
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-family: inherit;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .backgroundpicture-section {
+            background-image: url('https://www.actionaidusa.org/wp-content/uploads/2017/05/Consolata-Elizabeth-Alice-Oldenburg-185552scr.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 20px;
+            padding-bottom: 100px;
+            color: white;
+        }
+        .backgroundpicture-section h1 {
+            text-align: left;
+            font-size: 100px;
+            padding-left: 150px;
+            padding-bottom: 50px;
+            margin: 0;
+        }
+        .backgroundpicture-section h3 {
+            text-align: center;
+            font-size: 50px;
+            margin: 0;
+        }
+        .new-section {
+            background-color: white;
+            padding: 20px;
+            padding-top: 100px;
+            padding-left: 150px;
+            padding-right: 150px;
+            height: auto;
+            text-align: left;
+            margin-top: 0px;
+        }
+        .new-section h2 {
+            color: black;
+            font-size: x-large;
+            word-spacing: 5px;
+            line-height: 30px;
+        }
+        .new-section p {
+            color: #333;
+            font-size: large;
+            padding-bottom: 10px;
+            word-spacing: 5px;
+            line-height: 30px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-bottom: 50px;
+            margin-top: 50px;
+            text-align: left;
+        }
+        .column {
+            flex: 1;
+            min-width: 300px;
+            background-color: #e2dfdf;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .bold-large {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        @media (max-width: 1200px) {
+            .navbar a {
+                font-size: 16px;
+                margin: 0 15px;
+            }
+            .backgroundpicture-section h1 {
+                font-size: 80px;
+            }
+            .backgroundpicture-section h3 {
+                font-size: 40px;
+            }
+            .new-section {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+            .container {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+            .column {
+                min-width: 250px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar a {
+                font-size: 14px;
+                margin: 0 10px;
+            }
+            .backgroundpicture-section h1 {
+                font-size: 60px;
+            }
+            .backgroundpicture-section h3 {
+                font-size: 30px;
+            }
+            .new-section h2 {
+                font-size: 18px;
+            }
+            .container {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .column {
+                min-width: 200px;
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .navbar a {
+                font-size: 12px;
+                margin: 0 5px;
+            }
+            .backgroundpicture-section h1 {
+        font-size: 40px;
+        text-align: left; 
+        padding-left: 20px; }
+            .backgroundpicture-section h3 {
+                font-size: 20px;
+            }
+            .new-section h2 {
+                font-size: 16px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .container {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .column {
+                min-width: 80%;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="backgroundpicture-section">
+        <h1>
+            <span style="display: block;">Impact</span>
+            <span style="display: block;">of</span>
+            <span style="display: block;">food</span>
+            <span style="display: block;">crisis</span>
+        </h1>
+    </div>
+
+    <div class="new-section">
+        <h2>The impacts of food crisis are wide-ranging, affecting individuals, communities, economies, and countries. What are the main impacts of the food crisis?</h2>
+    </div>
+
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="causes.html">Causes</a>
+        <a href="impact.html">Impacts</a>
+        <a href="technology.html">Role of technology</a>
+        <a href="organization.html">Organizations</a>
+        <a href="feedback.html">Feedback</a>
+    </div>
+
+    <div class="container">
+        <div class="column">
+            <h3 class="bold-large">1. Hunger and Malnutrition</h3>
+            <p class="bold-large">The most immediate and devastating impact of food crisis is widespread hunger and malnutrition. Insufficient of essential nutriens needed by our body is not satisfied.Prolonged food shortage also lead to insufficient calories intake and can result in stunted growth, weakened immune system and development delays.It will also cause reduced energy, decreased productivity, vulnerable to disease and poor health.</p>
+        </div>
+        <div class="column">
+            <h3 class="bold-large">2. Social Unrest and Instability</h3>
+            <p class="bold-large">Food crisis often trigger social instable, protest and even riots. When there is lack of food and unaffortable,public frustration will occur and anger can lead to strikes and violence. There is already history examples in the world such as food shortage in the Arab Spring uprisings.</p>
+        </div>
+        <div class="column">
+            <h3 class="bold-large">3. Downfall of Economy</h3>
+            <p class="bold-large">A food crisis can trigger local and national economies. Rising of food prices will force households to allocate a larger share of their income to basic necessities, reducing spending on education, healthcar and other critical needs. Farmers and producers may suffer from reduced yields, leading to loss of income and debt accumulations.</p>
+        </div>
+        <div class="column">
+            <h3 class="bold-large">4. Migration and Displacement</h3>
+            <p class="bold-large">Severe food crisis force people to migrate to search for sustainance.Families may leave rural areas where the agriculture is no longer viable, moving to cities or corssing borders into neighboring countries. This might cause problems such as overcrowding and creates additional stress on urban areas and host countries.</p>
+        </div>
+        <div class="column">
+            <h3 class="bold-large">5. Pressure on Humanitarian Systems</h3>
+            <p class="bold-large">Food crisis increase the burden on international and local humanitarian organizations. The demand for emergency aid, food supplies and financial resources strains these systems, making it harder to respond effectively than usual.</p>
+        </div>
+    </div>
+</body>
+</html>

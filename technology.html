@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Food Crisis</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .navbar-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-family: inherit;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .backgroundpicture-section {
+            background-image: url('https://www.globaltimes.cn/Portals/0/attachment/2023/2023-09-04/a4c6e265-701a-4970-9a95-3eb791983d92.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 20px;
+            padding-bottom: 100px;
+            color: white;
+        }
+
+        .backgroundpicture-section h1 {
+            text-align: left;
+            font-size: 60px;
+            padding-left: 30px;
+            padding-bottom: 50px;
+            margin: 0;
+        }
+
+        .backgroundpicture-section h3 {
+            text-align: center;
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .new-section {
+            background-color: white;
+            padding: 20px;
+            padding-top: 100px;
+            padding-left: 150px;
+            padding-right: 150px;
+            height: auto;
+            text-align: left;
+            margin-top: 0px;
+        }
+
+        .new-section h2 {
+            color: black;
+            font-size: x-large;
+            word-spacing: 5px;
+            line-height: 30px;
+        }
+
+        .new-section p {
+            color: #333;
+            font-size: large;
+            padding-bottom: 10px;
+            word-spacing: 5px;
+            line-height: 30px;
+        }
+        .new-section ol {
+        font-size: x-large;
+        line-height: 35px; 
+    }
+
+    .new-section li {
+        font-size: x-large;
+        line-height: 35px; 
+    }
+
+        /* Media Queries for responsiveness */
+        @media (max-width: 1200px) {
+            .navbar a {
+                font-size: 16px;
+                margin: 0 15px;
+            }
+            .backgroundpicture-section h1 {
+                font-size: 50px;
+            }
+            .backgroundpicture-section h3 {
+                font-size: 30px;
+            }
+            .new-section {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+           
+        }
+
+        @media (max-width: 768px) {
+            .navbar a {
+                font-size: 14px;
+                margin: 0 10px;
+            }
+            .backgroundpicture-section h1 {
+                font-size: 40px;
+            }
+            .backgroundpicture-section h3 {
+                font-size: 20px;
+            }
+            .new-section h2 {
+                font-size: 18px;
+            }
+            .new-section {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .navbar a {
+                font-size: 13px;
+                margin: 0 5px;
+            }
+            
+        .backgroundpicture-section h1 {
+            font-size: 30px;
+            
+            text-align: left; 
+            .backgroundpicture-section h3 {
+                font-size: 20px;
+            }
+            .new-section h2 {
+                font-size: 20px;
+            }
+            .new-section {
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Navbar Section -->
+        <div class="navbar-wrapper">
+            <div class="navbar">
+                <a href="home.html">Home</a>
+                <a href="causes.html">Causes</a>
+                <a href="impact.html">Impacts</a>
+                <a href="technology.html">Role of technology</a>
+                <a href="organization.html">Organisations</a>
+                <a href="feedback.html">Feedback</a>
+            </div>
+        </div>
+
+        <!-- Background Picture Section -->
+        <div class="backgroundpicture-section">
+            <h1>
+                <span style="display: block;">Role</span>
+                <span style="display: block;">of</span>
+                <span style="display: block;">technology</span>
+                <span style="display: block;">in</span>
+                <span style="display: block;">solving</span>
+                <span style="display: block;">food</span>
+                <span style="display: block;">crisis</span>
+            </h1>
+        </div>
+         
+
+        <!-- Main Content Section -->
+        <div class="new-section">
+            
+            <h2>Technology plays an important role in solving food crisis by improving agricultural efficiency, reducing waste, and enhancing our system. Here are some main ways technology contributes to the situation:</h2>
+            <ol>
+                <li><strong>Precision Agriculture:</strong> Advanced technologies such as GPS, drones, and sensors allow farmers to monitor and manage their fields with greater accuracy and efficiency. They also help to optimize the use of water, fertilizers, and pesticides, increasing crop yields and reducing waste while preserving resources.</li>
+                <li><strong>Genetically Modified Organisms (GMOs):</strong> GMOs are engineered to resist pests, diseases, and extreme weather. These crops can thrive in challenging environments such as drought-prone areas, ensuring food availability in any conditions.</li>
+                <li><strong>Agricultural Robotics and Automation:</strong> Robotic systems automate tasks such as planting, weeding, harvesting, and watering, reducing labor costs and ensuring smooth operations. This technology is especially valuable during shortages of labor in farming.</li>
+                <li><strong>AI (Artificial Intelligence) and Machine Learning:</strong> AI helps to analyze large datasets to predict crop performance, optimize planting schedules, and identify potential risks. This helps to prevent crop loss.</li>
+                <li><strong>Food Preservation and Storage:</strong> Technologies like vacuum-sealing, refrigeration, and smart packaging extend the shelf life of foods, reducing post-harvest losses. Innovations in storage systems help to maintain food quality and prevent waste.</li>
+            </ol>
+        </div>
+
+    </div>
+
+</body>
+</html>

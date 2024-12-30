@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Food Crisis</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .navbar-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .backgroundpicture-section {
+            background-image: url('https://baptistnews.com/wp-content/uploads/2022/12/image1170x530cropped-1170x500.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 20px;
+            padding-bottom: 100px;
+            color: white;
+        }
+
+        .backgroundpicture-section h1 {
+            text-align: left;
+            font-size: 100px;
+            padding-left: 150px;
+            padding-bottom: 50px;
+            margin: 0;
+        }
+
+        .backgroundpicture-section h3 {
+            text-align: center;
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .new-section {
+            background-color: white;
+            padding: 20px;
+            padding-left: 150px;
+            padding-right: 150px;
+            text-align: left;
+        }
+
+        .new-section h2 {
+            color: black;
+            font-size: x-large;
+            word-spacing: 5px;
+            line-height: 30px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-bottom: 50px;
+            margin-top: 50px;
+            text-align: left;
+        }
+
+        .column {
+            flex: 1;
+            min-width: 300px;
+            background-color: #e2dfdf;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .bold-large {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        
+        @media (max-width: 1200px) {
+            .navbar a {
+                font-size: 16px;
+                margin: 0 15px;
+            }
+
+            .backgroundpicture-section h1 {
+                font-size: 80px;
+              
+            }
+
+            .new-section {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+
+            .container {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar a {
+                font-size: 14px;
+                margin: 0 10px;
+            }
+
+            .backgroundpicture-section h1 {
+                font-size: 60px;
+                text-align:left
+            }
+
+            .backgroundpicture-section h3 {
+                font-size: 24px;
+            }
+
+            .new-section h2 {
+                font-size: 18px;
+            }
+
+            .container {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .column {
+                min-width: 250px;
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .navbar a {
+                font-size: 12px;
+                margin: 0 5px;
+            }
+
+            .backgroundpicture-section h1 {
+        font-size: 40px;
+        text-align: left; 
+        padding-left: 20px; }
+            .backgroundpicture-secti
+
+            .backgroundpicture-section h3 {
+                font-size: 20px;
+            }
+
+            .new-section {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .container {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .column {
+                min-width: 80%;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar-wrapper">
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="causes.html">Causes</a>
+            <a href="impact.html">Impacts</a>
+            <a href="technology.html">Role of technology</a>
+            <a href="organization.html">Organisations</a>
+            <a href="feedback.html">Feedback</a>
+        </div>
+    </div>
+
+    <div class="backgroundpicture-section">
+        <h1>
+            <span style="display: block;">Cause</span>
+            <span style="display: block;">of</span>
+            <span style="display: block;">food</span>
+            <span style="display: block;">crisis</span>
+        </h1>
+    </div>
+
+    <div class="new-section">
+        <h2>What are the causes of food crisis? Food crises occur due to a combination of natural, economic, political, and social factors that disrupt the availability, accessibility, or affordability of food.</h2>
+    </div>
+
+    <div class="container">
+        <div class="column">
+            <h3 class="bold-large">1. Climate Change and Natural Disasters</h3>
+            <p class="bold-large">Climate change significantly impacts food production through phenomena such as prolonged droughts, devastating floods, and unpredictable weather patterns. Droughts reduce water availability for crops and livestock, while floods and storms destroy agricultural infrastructure, storage facilities, and harvest-ready fields. These natural events not only reduce immediate food availability but also disrupt long-term agricultural systems, making it difficult to recover and stabilize food production.</p>
+        </div>
+        <div class="column">
+            <h3 class="bold-large">2. Conflict and Political Instability</h3>
+            <p class="bold-large">Wars and civil unrest disrupt farming activities, displace populations, and block food supply chains, creating widespread food insecurity. In conflict zones, people are often forced to flee, abandoning their farms and livelihoods. Sanctions, trade restrictions, and governance failures further exacerbate the situation by limiting access to essential food imports or preventing efficient resource allocation. Political instability undermines efforts to ensure food security, leaving vulnerable populations at higher risk of hunger.</p>
+        </div>
+        <div class="column">
+            <h3 class="bold-large">3. Population Growth</h3>
+            <p class="bold-large">As the global population continues to rise, the demand for food increases exponentially. This puts immense pressure on agricultural systems to produce more food with limited arable land, water, and resources. Rapid population growth often outpaces the development of sustainable farming practices, leading to shortages and heightened competition for available food supplies</p>
+        </div>
+        <div class="column">
+            <h3 class="bold-large">4. Inefficient Food Systems</h3>
+            <p class="bold-large">Food waste and inequitable distribution play a significant role in food crises. A substantial amount of food is lost during post-harvest storage, transportation, or consumer-level waste. Meanwhile, some regions experience surplus production, while others face shortages due to poor distribution networks. This inefficiency exacerbates food insecurity, as it prevents resources from reaching those who need them most.</p>
+        </div>
+        <div class="column">
+            <h3 class="bold-large">5. Supply Chain Disruptions</h3>
+            <p class="bold-large">Food supply chains are crucial for transporting produce from farms to consumers, but they can be disrupted by poor infrastructure, fuel shortages, or logistical challenges. Global crises, such as pandemics or geopolitical conflicts, can further exacerbate these issues, halting trade and causing delays. Such disruptions can lead to food shortages in areas heavily dependent on imports or centralized distribution systems.</p>
+        </div>
+    </div>
+</body>
+</html>
